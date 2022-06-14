@@ -19,5 +19,5 @@ from django.db import models
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('movie/', include('filmlist_app.urls')),
+    path('movie/', include('filmlist_app.api.urls')),
 ]
